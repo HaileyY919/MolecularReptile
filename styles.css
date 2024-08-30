@@ -1,0 +1,35 @@
+body {
+    color: white;
+    background-color: black;
+    margin: 50px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 20px;
+}
+body {
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 25px;
+    flex-direction: row;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
