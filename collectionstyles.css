@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Coalition";
+    src: url('Coalition.ttf') format('truetype');
+  }
+@font-face {
+    font-family: "DIN";
+    src: url('DIN\ Alternate\ Bold.ttf') format('truetype');
+  }
+header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    font-family:"Coalition", 'Arial Narrow', Arial, sans-serif;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+nav ul {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+nav ul li{
+    list-style-type: none;
+    width: 100%;
+}
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #BCB6B6;
+}
+h1 {
+    font-family:"Coalition", 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    font-family:"Coalition", 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+body {
+    font-family: "DIN", 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: #BCB6B6;
+    flex-direction: row;
+    background-image: url(Background.png);
+    margin: 30px;
+}
+p {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+#Ryan {
+    float: left;
+}
+#snakes {
+    margin-right: -1.5%;
+}
+.collectionbuttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "DIN", 'Arial Narrow', Arial, sans-serif;
+}
