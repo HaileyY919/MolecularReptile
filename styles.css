@@ -13,6 +13,9 @@ header {
     width: 100%;
     font-family:"Coalition", 'Arial Narrow', Arial, sans-serif;
 }
+#logo {
+    padding-right: 40px;
+}
 nav {
     width: 100%;
     display: flex;
@@ -117,6 +120,7 @@ footer {
         height: 150px;
         align-content: center;
         flex-direction: column;
+        padding: 0%;
     }
     nav {
         flex-direction: row;
