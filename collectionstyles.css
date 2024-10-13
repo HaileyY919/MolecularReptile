@@ -14,7 +14,7 @@ header {
     font-family:"Coalition", 'Arial Narrow', Arial, sans-serif;
 }
 #logo {
-    padding-right: 40px;
+    padding-right: 35px;
 }
 nav {
     width: 100%;
@@ -30,7 +30,7 @@ nav ul {
     align-items: center;
     flex-direction: row;
     word-spacing: 3px;
-    font-size: 24pt;
+    font-size: 18pt;
     color: #BCB6B6;
 }
 nav ul li{
@@ -199,6 +199,7 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;
+        flex-direction: column;
     }
     main {
         display: flex;
