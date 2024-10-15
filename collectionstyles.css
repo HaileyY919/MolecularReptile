@@ -6,6 +6,28 @@
     font-family: "DIN";
     src: url('DIN\ Alternate\ Bold.ttf') format('truetype');
   }
+  .pythons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+} 
+.pythons img {
+    padding: 15px;
+}
+.boas {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+} 
+.boas img {
+    padding: 15px;
+}
 header {
     display: flex;
     justify-content: center;
@@ -14,19 +36,18 @@ header {
     font-family:"Coalition", 'Arial Narrow', Arial, sans-serif;
 }
 #logo {
-    padding-right: 35px;
+    padding: 15px;
+    justify-self: flex-start;
 }
 nav {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
 }
 nav ul {
     padding: .5em 1em;
     margin: .5em;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     word-spacing: 3px;
@@ -64,29 +85,6 @@ body {
     flex-direction: row;
     background-image: url(Background.png);
 }
-.pythons {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    padding: 20px;
-    flex-wrap: wrap;
-} 
-.pythons img {
-    padding: 15px;
-}
-.boas {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    padding: 20px;
-    flex-wrap: wrap;
-} 
-.boas img {
-    padding: 15px;
-}
-
 p {
     display: flex;
     flex-direction: row;
@@ -97,7 +95,9 @@ p {
     padding-left: 20px;
 }
 #snakes {
-    margin-right: -2%;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 15px;
 }
 #banner {
     display: none;
@@ -110,13 +110,13 @@ p {
   
 }
 footer {
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
     font-family: "DIN", 'Arial Narrow', Arial, sans-serif;
 }
-
 
 @media (max-width: 1024px) {
     @font-face {
@@ -141,7 +141,6 @@ footer {
         justify-content: center;
         width: 150px; 
         height: 150px;
-        align-content: center;
         flex-direction: column;
         padding: 0%;
     }
@@ -199,7 +198,6 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;
-        flex-direction: column;
     }
     main {
         display: flex;

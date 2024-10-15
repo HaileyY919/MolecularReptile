@@ -14,19 +14,18 @@ header {
     font-family:"Coalition", 'Arial Narrow', Arial, sans-serif;
 }
 #logo {
-    padding-right: 35px;
+    padding: 15px;
+    justify-self: flex-start;
 }
 nav {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
 }
 nav ul {
     padding: .5em 1em;
     margin: .5em;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     word-spacing: 3px;
@@ -64,9 +63,6 @@ body {
     flex-direction: row;
     background-image: url(Background.png);
 }
-main {
-    margin: 30px;
-}
 p {
     display: flex;
     flex-direction: row;
@@ -77,7 +73,9 @@ p {
     padding-left: 20px;
 }
 #snakes {
-    margin-right: -2%;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 15px;
 }
 #banner {
     display: none;
