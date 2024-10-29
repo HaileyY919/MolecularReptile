@@ -141,6 +141,14 @@ p {
     border-radius: 5px;
     object-fit: cover;
   }
+  .roughgallery img {
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+    justify-content: center;
+  }
+
 
 footer {
     color: white;
