@@ -93,6 +93,10 @@ footer {
     align-items: center;
     justify-content: space-evenly;
     font-family: "DIN", 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+footer a {
+    color: white;
 }
 
 
@@ -166,6 +170,7 @@ footer {
         align-items: center;
         font-size: 16pt;
         flex-wrap: wrap;
+        text-align: center;
     }
     body {
         display: flex;
@@ -192,6 +197,7 @@ footer {
         flex-wrap: wrap;
         width: 100%;
         padding-right: 25px;
+        color: white;
     }
     #Ryan {
         display: flex;
@@ -219,6 +225,7 @@ footer {
         justify-content: space-evenly;
         font-family: "DIN", 'Arial Narrow', Arial, sans-serif;
         flex-wrap: wrap;
+        color: white;
     }
     #Morph {
         width: 70px;
