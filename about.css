@@ -37,6 +37,7 @@ nav ul li{
     padding: 20px;
     text-decoration: none;
     color: #BCB6B6;
+    line-height: 4pt;
 }
 a {
     list-style: none;
@@ -49,6 +50,7 @@ h1 {
     display: flex;
     justify-content: center;
     font-size: 40pt;
+    line-height: 4pt;
 }
 h2 {
     font-family:"Coalition", 'Arial Narrow', Arial, sans-serif;
