@@ -94,6 +94,7 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     color: white;
+    font-size: 18px;
 }
 #Ryan {
     float: left;
@@ -214,6 +215,9 @@ footer {
     justify-content: space-evenly;
     font-family: "DIN", 'Arial Narrow', Arial, sans-serif;
 }
+footer p {
+    font-size: 16px;
+}
 
 @media (max-width: 700px) {
     @font-face {
@@ -316,6 +320,7 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;
+        margin: 0;
     }
     main {
         display: flex;
@@ -351,7 +356,6 @@ footer {
     }
     #banner {
         display: flex;
-        margin: -2%;
         width: 100%;
     }
     .collectionbuttons {

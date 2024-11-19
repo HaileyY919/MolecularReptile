@@ -101,7 +101,9 @@ footer {
     justify-content: space-evenly;
     font-family: "DIN", 'Arial Narrow', Arial, sans-serif;
 }
-
+footer p {
+    font-size: 16px;
+}
 
 @media (max-width: 1024px) {
     @font-face {
@@ -214,7 +216,6 @@ footer {
     }
     #banner {
         display: flex;
-        margin: -2%;
         width: 100%;
     }
     .collectionbuttons {
