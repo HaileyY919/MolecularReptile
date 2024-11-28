@@ -72,7 +72,13 @@ p {
     font-size: 18px;
     margin: 0;
 }
-
+.collectionbuttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  
+}
 .family {
     display: flex;
     justify-content: center;
@@ -248,9 +254,13 @@ footer p {
     }
     .collectionbuttons {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+    }
+    .collectionbuttons img {
+       width: 180px;
+       height: auto;
     }
     footer {
         display: flex;
@@ -261,7 +271,10 @@ footer p {
         flex-wrap: wrap;
         color: white;
     }
-
+    #footerlogo {
+        width: 60px;
+        height: 60px;
+    }
     #Morph {
         width: 70px;
         height: 30px;

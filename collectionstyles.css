@@ -58,7 +58,7 @@ nav ul li{
     padding: 20px;
     text-decoration: none;
     color: #BCB6B6;
-    letter-spacing: 2pt;
+    line-height: 4pt;
 }
 a {
     list-style: none;
@@ -71,15 +71,12 @@ h1 {
     display: flex;
     justify-content: center;
     font-size: 40pt;
-    letter-spacing: 3pt;
 }
 h2 {
     font-family:"Coalition", 'Arial Narrow', Arial, sans-serif;
     display: flex;
     justify-content: center;
     font-size: 30pt;
-    text-align: center;
-    letter-spacing: 3pt;
 }
 body {
     font-family: "DIN", 'Arial Narrow', Arial, sans-serif;
@@ -91,10 +88,9 @@ body {
 p {
     display: flex;
     flex-direction: row;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: white;
+    padding:20px;
     font-size: 18px;
+    margin: 0;
 }
 #Ryan {
     float: left;
