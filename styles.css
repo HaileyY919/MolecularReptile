@@ -106,21 +106,47 @@ p {
   
 }
 footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  .footer-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-evenly;
-    font-family: "DIN", 'Arial Narrow', Arial, sans-serif;
+    max-width: 100vw;
+    margin: 0 auto;
+  }
+  
+  .footer-left {
+    justify-content: left;
+  }
+  
+  .footer-center .logo {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-center {
+    text-align: center;
+  }
+  
+  .footer-center a {
+    display: flex;
     color: white;
-}
-footer a {
-    color: white;
-}
-footer p {
-    font-size: 16px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+    text-decoration: none;
+    justify-content: center;
+  }
+  
+  .footer-right {
+    text-align: right;
+  }
+  
+  .social-icons a img {
+    width: 30px;
+    margin: 0 5px;
+  }
 
 @media (max-width: 1024px) {
     @font-face {
@@ -149,10 +175,6 @@ footer p {
     .family img {
         padding: 20px;
         width: 50%;
-    }
-    #footerlogo {
-        width: 60px;
-        height: 60px;
     }
     #logo {
         display: flex;
@@ -217,22 +239,14 @@ footer p {
         background-image: url(Backgroundcopy.png);
         flex-wrap: wrap;
         justify-content: center;
-        width: 100%;
+        width: 100vw;
         margin: 0;
-    }
-    main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin: 20px;
     }
     p {
         display: flex;
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
-        width: 100%;
         padding-right: 25px;
         color: white;
         font-size: 18px;
@@ -248,7 +262,7 @@ footer p {
     #banner {
         display: flex;
         margin: 0;
-        width: 100%;
+        width: 100vw;
         padding: 0;
     }
     .collectionbuttons {
@@ -261,29 +275,14 @@ footer p {
        width: 180px;
        height: auto;
     }
-    footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        justify-content: space-evenly;
-        font-family: "DIN", 'Arial Narrow', Arial, sans-serif;
-        flex-wrap: wrap;
-        color: white;
-    }
-    #footerlogo {
-        width: 60px;
-        height: 60px;
-    }
-    #Morph {
-        width: 70px;
-        height: 30px;
-    }
-    #Facebook {
-        width: 30px;
-        height: 30px;
-    }
-    #Insta {
-        width: 30px;
-        height: 30px;
-    }
 }
+@media (max-width: 768px) {
+    .footer-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 14pt;
+        row-gap: 20pt;
+        text-align: center;
+    }
+  }
